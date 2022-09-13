@@ -1,0 +1,15 @@
+name: SurvivalGames
+version: 1.0-Beta
+author: Lawnless
+main: dev.lawnless.survivalgames.Main
+description: A hunger games clone, coded from scratch.
+commands:
+  sg:
+    aliases: [survivalgames]
+    description: Join an arena or you can leave from it too!
+  sgarena:
+    aliases: [sga, survivalgamesarena]
+    description: You can manage your arenas with this command.
+permissions:
+  survivalgames.admin:
+    default: op
